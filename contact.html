@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Technopaedia</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-row">
+      <a class="brand" href="index.html">Technopaedia</a>
+      <button id="navToggle5" class="nav-toggle" aria-expanded="false">☰</button>
+      <nav class="main-nav" id="mainNav5">
+        <a href="services.html">Services</a>
+        <a href="training.html">Training</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="cta">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Contact Us</h1>
+    <p>Fill out the form below and we'll get back to you within 1-2 business days.</p>
+
+    <form id="contactForm" action="contact-form-handler.php" method="POST" class="contact-form">
+      <label>
+        <span>Your name</span>
+        <input type="text" name="name" required>
+      </label>
+      <label>
+        <span>Your email</span>
+        <input type="email" name="email" required>
+      </label>
+      <label>
+        <span>Company</span>
+        <input type="text" name="company">
+      </label>
+      <label>
+        <span>Message</span>
+        <textarea name="message" rows="6" required></textarea>
+      </label>
+      <p class="form-actions">
+        <button type="submit" class="btn">Send message</button>
+      </p>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>Technopaedia</strong>
+      </div>
+      <div>
+        <nav>
+          <a href="services.html">Services</a> ·
+          <a href="training.html">Training</a> ·
+          <a href="about.html">About</a> ·
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+      <div>
+        <small>© <span id="year5"></span> Technopaedia</small>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
