@@ -1,0 +1,2 @@
+# technopaedia.com
+Static Website
